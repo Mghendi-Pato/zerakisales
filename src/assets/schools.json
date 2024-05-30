@@ -1,0 +1,614 @@
+{
+  "schools": [
+    {
+      "id": "1",
+      "schoolName": "Greenwood High",
+      "amountDue": 1200.5,
+      "dueDate": "2024-06-01",
+      "invoiceId": "INV001",
+      "type": "Secondary",
+      "product": "Analytics",
+      "county": "Nairobi",
+      "registrationDate": "2023-01-15",
+      "contactInformation": {
+        "phone": "0722123456",
+        "email": "contact@greenwoodhigh.com"
+      },
+      "schoolBalance": {
+        "invoicesCreated": 5000,
+        "collectionsMade": 3800
+      },
+      "invoices": [
+        {
+          "invoiceNumber": "INV001",
+          "invoiceItem": "Analytics",
+          "creationDate": "2024-05-01",
+          "dueDate": "2024-06-01",
+          "amount": 1200.5,
+          "paidAmount": "1001000",
+          "completionStatus": "completed"
+        }
+      ],
+      "collections": [
+        {
+          "collectionNumber": "COL001",
+          "invoiceNumber": "INV001",
+          "collectionDate": "2024-05-30",
+          "status": "Bounced",
+          "amount": 3800
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "schoolName": "St Georges",
+      "amountDue": 1200.5,
+      "dueDate": "2024-06-01",
+      "invoiceId": "INV001",
+      "type": "Primary",
+      "product": "Analytics",
+      "county": "Nairobi",
+      "registrationDate": "2023-01-15",
+      "contactInformation": {
+        "phone": "0722123409",
+        "email": "contact@greenwoodhigh.com"
+      },
+      "schoolBalance": {
+        "invoicesCreated": 5000,
+        "collectionsMade": 3800
+      },
+      "invoices": [
+        {
+          "invoiceNumber": "INV001",
+          "invoiceItem": "Analytics",
+          "creationDate": "2024-05-01",
+          "dueDate": "2024-06-01",
+          "amount": 1200.5,
+          "paidAmount": 1100,
+          "completionStatus": "Pending"
+        }
+      ],
+      "collections": [
+        {
+          "collectionNumber": "COL001",
+          "invoiceNumber": "INV001",
+          "collectionDate": "2024-05-30",
+          "status": "Valid",
+          "amount": 3800
+        },
+        {
+          "collectionNumber": "COL915481",
+          "invoiceNumber": "INV001",
+          "collectionDate": "2024-05-30",
+          "status": "Valid",
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "schoolName": "British School",
+      "amountDue": 1200.5,
+      "dueDate": "2024-06-01",
+      "invoiceId": "INV001",
+      "type": "IGCSE",
+      "product": "Analytics",
+      "county": "Nairobi",
+      "registrationDate": "2023-01-15",
+      "contactInformation": {
+        "phone": "0722123473",
+        "email": "contact@greenwoodhigh.com"
+      },
+      "schoolBalance": {
+        "invoicesCreated": 5000,
+        "collectionsMade": 3800
+      },
+      "invoices": [
+        {
+          "invoiceNumber": "INV001",
+          "invoiceItem": "Analytics",
+          "creationDate": "2024-05-01",
+          "dueDate": "2024-06-01",
+          "amount": "700",
+          "paidAmount": "0.5",
+          "completionStatus": "Pending"
+        }
+      ],
+      "collections": [
+        {
+          "collectionNumber": "COL001",
+          "invoiceNumber": "INV001",
+          "collectionDate": "2024-05-30",
+          "status": "Valid",
+          "amount": 3800
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "schoolName": "Nawiri School",
+      "amountDue": 1200.5,
+      "dueDate": "2024-06-01",
+      "invoiceId": "INV001",
+      "type": "IGCSE",
+      "product": "Finance",
+      "county": "Nairobi",
+      "registrationDate": "2023-01-15",
+      "contactInformation": {
+        "phone": "0722123423",
+        "email": "contact@greenwoodhigh.com"
+      },
+      "schoolBalance": {
+        "invoicesCreated": 5000,
+        "collectionsMade": 3800
+      },
+      "invoices": [
+        {
+          "invoiceNumber": "INV001",
+          "invoiceItem": "Analytics",
+          "creationDate": "2024-05-01",
+          "dueDate": "2024-06-01",
+          "amount": 1200.5,
+          "paidAmount": "1000",
+          "completionStatus": "Pending"
+        }
+      ],
+      "collections": [
+        {
+          "collectionNumber": "COL001",
+          "invoiceNumber": "INV001",
+          "collectionDate": "2024-05-30",
+          "status": "Valid",
+          "amount": 3800
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "schoolName": "Kenya School",
+      "amountDue": 1200.5,
+      "dueDate": "2024-06-01",
+      "invoiceId": "INV001",
+      "type": "IGCSE",
+      "product": "Finance",
+      "county": "Nairobi",
+      "registrationDate": "2023-01-15",
+      "contactInformation": {
+        "phone": "0722123490",
+        "email": "contact@greenwoodhigh.com"
+      },
+      "schoolBalance": {
+        "invoicesCreated": 5000,
+        "collectionsMade": 3800
+      },
+      "invoices": [
+        {
+          "invoiceNumber": "INV001",
+          "invoiceItem": "Analytics",
+          "creationDate": "2024-05-01",
+          "dueDate": "2024-06-01",
+          "amount": 1200.5,
+          "paidAmount": "1200.5",
+          "completionStatus": "completed"
+        }
+      ],
+      "collections": [
+        {
+          "collectionNumber": "COL001",
+          "invoiceNumber": "INV001",
+          "collectionDate": "2024-05-30",
+          "status": "Valid",
+          "amount": 3800
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "schoolName": "Bright Kids",
+      "amountDue": 1200.5,
+      "dueDate": "2024-06-01",
+      "invoiceId": "INV001",
+      "type": "IGCSE",
+      "product": "Timetable",
+      "county": "Nairobi",
+      "registrationDate": "2023-01-15",
+      "contactInformation": {
+        "phone": "0722123446",
+        "email": "contact@greenwoodhigh.com"
+      },
+      "schoolBalance": {
+        "invoicesCreated": 5000,
+        "collectionsMade": 3800
+      },
+      "invoices": [
+        {
+          "invoiceNumber": "INV001",
+          "invoiceItem": "Analytics",
+          "creationDate": "2024-05-01",
+          "dueDate": "2024-06-01",
+          "amount": 1200.5,
+          "paidAmount": "1000",
+          "completionStatus": "Pending"
+        }
+      ],
+      "collections": [
+        {
+          "collectionNumber": "COL001",
+          "invoiceNumber": "INV001",
+          "collectionDate": "2024-05-30",
+          "status": "Bounced",
+          "amount": 3800
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "schoolName": "Machakos School",
+      "amountDue": 1200.5,
+      "dueDate": "2024-06-01",
+      "invoiceId": "INV001",
+      "type": "Secondary",
+      "product": "Timetable",
+      "county": "Machakos",
+      "registrationDate": "2023-01-15",
+      "contactInformation": {
+        "phone": "0722123434",
+        "email": "contact@greenwoodhigh.com"
+      },
+      "schoolBalance": {
+        "invoicesCreated": 5000,
+        "collectionsMade": 3800
+      },
+      "invoices": [
+        {
+          "invoiceNumber": "INV001",
+          "invoiceItem": "Analytics",
+          "creationDate": "2024-05-01",
+          "dueDate": "2024-06-01",
+          "amount": 1200.5,
+          "paidAmount": 110,
+          "completionStatus": "Pending"
+        }
+      ],
+      "collections": [
+        {
+          "collectionNumber": "COL001",
+          "invoiceNumber": "INV001",
+          "collectionDate": "2024-05-30",
+          "status": "Valid",
+          "amount": 3800
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "schoolName": "Nairobi Primary",
+      "amountDue": 1200.5,
+      "dueDate": "2024-06-01",
+      "invoiceId": "INV001",
+      "type": "Primary",
+      "product": "Timetable",
+      "county": "Nairobi",
+      "registrationDate": "2023-01-15",
+      "contactInformation": {
+        "phone": "0722123445",
+        "email": "contact@greenwoodhigh.com"
+      },
+      "schoolBalance": {
+        "invoicesCreated": 5000,
+        "collectionsMade": 3800
+      },
+      "invoices": [
+        {
+          "invoiceNumber": "INV001",
+          "invoiceItem": "Analytics",
+          "creationDate": "2024-05-01",
+          "dueDate": "2024-06-01",
+          "amount": 1200.5,
+          "paidAmount": 1010,
+          "completionStatus": "Pending"
+        }
+      ],
+      "collections": [
+        {
+          "collectionNumber": "COL001",
+          "invoiceNumber": "INV001",
+          "collectionDate": "2024-05-30",
+          "status": "Valid",
+          "amount": 3800
+        },
+        {
+          "collectionNumber": "COL348302",
+          "invoiceNumber": "INV001",
+          "collectionDate": "2024-05-30",
+          "status": "Valid",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "schoolName": "Nakuru Primary",
+      "amountDue": 1200.5,
+      "dueDate": "2024-06-01",
+      "invoiceId": "INV001",
+      "type": "Primary",
+      "product": "Timetable",
+      "county": "Nakuru",
+      "registrationDate": "2023-01-15",
+      "contactInformation": {
+        "phone": "0722123478",
+        "email": "contact@greenwoodhigh.com"
+      },
+      "schoolBalance": {
+        "invoicesCreated": 5000,
+        "collectionsMade": 3800
+      },
+      "invoices": [
+        {
+          "invoiceNumber": "INV001",
+          "invoiceItem": "Analytics",
+          "creationDate": "2024-05-01",
+          "dueDate": "2024-06-01",
+          "amount": 1200.5,
+          "paidAmount": "1000",
+          "completionStatus": "Pending"
+        }
+      ],
+      "collections": [
+        {
+          "collectionNumber": "COL001",
+          "invoiceNumber": "INV001",
+          "collectionDate": "2024-05-30",
+          "status": "Valid",
+          "amount": 3800
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "schoolName": "Nairobi School",
+      "amountDue": 1200.5,
+      "dueDate": "2024-06-01",
+      "invoiceId": "INV001",
+      "type": "Secondary",
+      "product": "Timetable",
+      "county": "Nairobi",
+      "registrationDate": "2023-01-15",
+      "contactInformation": {
+        "phone": "0722123556",
+        "email": "contact@greenwoodhigh.com"
+      },
+      "schoolBalance": {
+        "invoicesCreated": 5000,
+        "collectionsMade": 3800
+      },
+      "invoices": [
+        {
+          "invoiceNumber": "INV001",
+          "invoiceItem": "Analytics",
+          "creationDate": "2024-05-01",
+          "dueDate": "2024-06-01",
+          "amount": 1200.5,
+          "paidAmount": 0,
+          "balance": 1200.5,
+          "completionStatus": "Pending"
+        }
+      ],
+      "collections": [
+        {
+          "collectionNumber": "COL001",
+          "invoiceNumber": "INV001",
+          "collectionDate": "2024-05-30",
+          "status": "Valid",
+          "amount": 3800
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "schoolName": "Blue Ridge Elementary",
+      "amountDue": 950,
+      "dueDate": "2024-06-05",
+      "invoiceId": "INV002",
+      "type": "Primary",
+      "product": "Finance",
+      "county": "Mombasa",
+      "registrationDate": "2023-02-20",
+      "contactInformation": {
+        "phone": "0722987654",
+        "email": "contact@blueridgeelementary.com"
+      },
+      "schoolBalance": {
+        "invoicesCreated": 4500,
+        "collectionsMade": 4200
+      },
+      "invoices": [
+        {
+          "invoiceNumber": "INV002",
+          "invoiceItem": "Finance",
+          "creationDate": "2024-05-01",
+          "dueDate": "2024-06-05",
+          "amount": 950,
+          "paidAmount": "100",
+          "completionStatus": "Pending"
+        }
+      ],
+      "collections": [
+        {
+          "collectionNumber": "COL002",
+          "invoiceNumber": "INV002",
+          "collectionDate": "2024-06-01",
+          "status": "Bounced",
+          "amount": 4200
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "schoolName": "Hilltop Academy",
+      "amountDue": 1500.75,
+      "dueDate": "2024-06-10",
+      "invoiceId": "INV003",
+      "type": "Secondary",
+      "product": "Timetable",
+      "county": "Kisumu",
+      "registrationDate": "2023-03-10",
+      "contactInformation": {
+        "phone": "0722543210",
+        "email": "contact@hilltopacademy.com"
+      },
+      "schoolBalance": {
+        "invoicesCreated": 6000,
+        "collectionsMade": 5800
+      },
+      "invoices": [
+        {
+          "invoiceNumber": "INV003",
+          "invoiceItem": "Timetable",
+          "creationDate": "2024-05-01",
+          "dueDate": "2024-06-10",
+          "amount": 1500.75,
+          "paidAmount": 1600,
+          "completionStatus": "Completed"
+        }
+      ],
+      "collections": [
+        {
+          "collectionNumber": "COL003",
+          "invoiceNumber": "INV003",
+          "collectionDate": "2024-06-05",
+          "status": "Valid",
+          "amount": 5800
+        },
+        {
+          "collectionNumber": "COL679066",
+          "invoiceNumber": "INV003",
+          "collectionDate": "2024-05-30",
+          "status": "Valid",
+          "amount": 200
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "schoolName": "Maple Leaf School",
+      "amountDue": 1100,
+      "dueDate": "2024-06-15",
+      "invoiceId": "INV004",
+      "type": "Secondary",
+      "product": "Analytics",
+      "county": "Nairobi",
+      "registrationDate": "2023-04-10",
+      "contactInformation": {
+        "phone": "0722986543",
+        "email": "contact@mapleleafschool.com"
+      },
+      "schoolBalance": {
+        "invoicesCreated": 5200,
+        "collectionsMade": 4100
+      },
+      "invoices": [
+        {
+          "invoiceNumber": "INV004",
+          "invoiceItem": "Analytics",
+          "creationDate": "2024-05-01",
+          "dueDate": "2024-06-15",
+          "amount": 1100,
+          "paidAmount": 1200,
+          "completionStatus": "Completed"
+        },
+        {
+          "invoiceNumber": 836263,
+          "invoiceItem": "Finance",
+          "creationDate": "2024-05-30",
+          "dueDate": "2024-05-15",
+          "amount": "1200",
+          "paidAmount": "0",
+          "completionStatus": "Pending"
+        }
+      ],
+      "collections": [
+        {
+          "collectionNumber": "COL004",
+          "invoiceNumber": "INV004",
+          "collectionDate": "2024-06-10",
+          "status": "Bounced",
+          "amount": 4100
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "schoolName": "Riverdale High",
+      "amountDue": 1250.2,
+      "dueDate": "2024-06-20",
+      "invoiceId": "INV005",
+      "type": "Secondary",
+      "product": "Finance",
+      "county": "Mombasa",
+      "registrationDate": "2023-05-05",
+      "contactInformation": {
+        "phone": "0722765432",
+        "email": "contact@riverdalehigh.com"
+      },
+      "schoolBalance": {
+        "invoicesCreated": 5500,
+        "collectionsMade": 4500
+      },
+      "invoices": [
+        {
+          "invoiceNumber": "INV005",
+          "invoiceItem": "Finance",
+          "creationDate": "2024-05-01",
+          "dueDate": "2024-06-20",
+          "amount": 1250.2,
+          "paidAmount": "205",
+          "completionStatus": "pending"
+        },
+        {
+          "invoiceNumber": "INV006",
+          "invoiceItem": "Finance",
+          "creationDate": "2024-05-15",
+          "dueDate": "2024-06-30",
+          "amount": 1350.75,
+          "paidAmount": "100",
+          "completionStatus": "pending"
+        },
+        {
+          "invoiceNumber": "INV007",
+          "invoiceItem": "Finance",
+          "creationDate": "2024-05-25",
+          "dueDate": "2024-07-05",
+          "amount": 1400.4,
+          "paidAmount": 0,
+          "balance": 1400.4,
+          "completionStatus": "completed"
+        }
+      ],
+      "collections": [
+        {
+          "collectionNumber": "COL005",
+          "invoiceNumber": "INV005",
+          "collectionDate": "2024-06-15",
+          "status": "Valid",
+          "amount": 4500
+        },
+        {
+          "collectionNumber": "COL006",
+          "invoiceNumber": "INV006",
+          "collectionDate": "2024-06-30",
+          "status": "Valid",
+          "amount": 5000
+        },
+        {
+          "collectionNumber": "COL007",
+          "invoiceNumber": "INV007",
+          "collectionDate": "2024-07-10",
+          "status": "Bounced",
+          "amount": 4800
+        }
+      ]
+    }
+  ]
+}
