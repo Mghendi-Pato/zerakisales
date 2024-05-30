@@ -71,8 +71,46 @@ The Zeraki Sales Dashboard is a web application designed to manage and visualize
 
 - Add an invoice, collect payment, and delete invoices
 - ![image](https://github.com/Mghendi-Pato/zerakisales/assets/106270504/fe968fe1-6d85-4eed-8c70-0f39a5f3db31)
+- 
 - ![image](https://github.com/Mghendi-Pato/zerakisales/assets/106270504/cdd8f507-6af5-4979-8d1e-93295448eefb)
+- 
 - ![image](https://github.com/Mghendi-Pato/zerakisales/assets/106270504/474a3535-e515-4f2e-aa38-6763a536975f)
+  
+-You can also view the invoices categorized by their status, such as pending or complete.
+
+![image](https://github.com/Mghendi-Pato/zerakisales/assets/106270504/21a7112d-3076-412b-908a-594328e96d38)
+
+-You can conveniently view and edit collections on the same page by simply shifting the view to the collections section.
+
+![image](https://github.com/Mghendi-Pato/zerakisales/assets/106270504/b4edd572-0ee6-44b3-ba72-0e8a862011a8)
+
+## Additional user experience enhancement features
+
+1. The application offers real-time feedback for user actions, integrating the React Alerts library.
+
+![image](https://github.com/Mghendi-Pato/zerakisales/assets/106270504/4fe03a6a-ed77-4b0c-957e-7fae32b7990c)
+
+2. The application is responsive, providing flexibility across multiple screens. You can access the navigation bar from the green button on the top right side.
+   
+![image](https://github.com/Mghendi-Pato/zerakisales/assets/106270504/c94d9816-0805-4930-8ca0-f93cfeeac65e)
+
+## Hosting and deployment
+
+1. Website link: https://66589e47c001c332e4e439ba--calm-bublanina-3d1e96.netlify.app/
+2. Github repository: https://github.com/Mghendi-Pato/zerakisales/tree/master
+3. Data web service: https://schools-59jg.onrender.com/schools
+
+## Technical dept
+1. Make fully fluid responsive
+2. Implement user authentication
+3. Refactor code and better hosting
+
+1
+-NB/ You may encounter delays in data loading due to hosting data on different remote services.
+
+
+
+
 
 
 
