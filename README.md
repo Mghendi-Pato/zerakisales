@@ -20,10 +20,11 @@ The Zeraki Sales Dashboard is a web application designed to manage and visualize
 
 ## Technologies Used
 
+[![My Skills](https://skillicons.dev/icons?i=git,react,tailwind,github&perline=10)](https://skillicons.dev)
+
 - React
 - Tailwind CSS
 - Axios
-- JSON Server (for mock backend)
 - Git for version control
 
 ## Setup Instructions
