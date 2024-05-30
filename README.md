@@ -52,7 +52,11 @@ The Zeraki Sales Dashboard is a web application designed to manage and visualize
 - Signups Overview: Visualize sign-ups per product categorized by school type using bar charts.
 - Targets: Track and visualize targets vs. achievements for each product using pie charts.
 - Upcoming Invoices: Manage and view upcoming invoices with quick action buttons for payment collection.
+  
   ![image](https://github.com/Mghendi-Pato/zerakisales/assets/106270504/660bac47-8bef-4ee7-aa37-e818cba33235)
+
+  ![image](https://github.com/Mghendi-Pato/zerakisales/assets/106270504/5e5880ba-f600-47db-99b6-72e2449ee878)
+
 
 
 
