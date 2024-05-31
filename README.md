@@ -43,9 +43,11 @@ The Zeraki Sales Dashboard is a web application designed to manage and visualize
    git clone git@github.com:Mghendi-Pato/zerakisales.git
    cd zerakisales
 2. **Install dependencies:**
+    ```sh
    npm install -f
    - the flag is due to the dependency conflict in react alerts
-3. Start the application
+4. Start the application
+    ```sh
    npm run dev
 
 ## Usage overview
