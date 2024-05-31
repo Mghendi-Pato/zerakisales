@@ -99,7 +99,7 @@ The Zeraki Sales Dashboard is a web application designed to manage and visualize
 
 1. Website link: https://66589e47c001c332e4e439ba--calm-bublanina-3d1e96.netlify.app/
 2. Github repository: https://github.com/Mghendi-Pato/zerakisales/tree/master
-3. Data web service: https://schools-59jg.onrender.com/schools
+3. Data web service: https://schools-bsc2.onrender.com/schools
 
 ## Technical debt
 1. Make fully fluid responsive
