@@ -110,7 +110,7 @@ The Zeraki Sales Dashboard is a web application designed to manage and visualize
 3. Refactor code and better hosting
 
 
--NB/ You may encounter delays in data loading due to hosting data on different remote services.
+<code style="color :RED">-NB/ You may encounter delays in data loading due to hosting data on different remote services.</code>
 
 
 
