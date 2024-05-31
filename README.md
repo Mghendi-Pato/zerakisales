@@ -45,7 +45,8 @@ The Zeraki Sales Dashboard is a web application designed to manage and visualize
 2. **Install dependencies:**
     ```sh
    npm install -f
- The flag is due to the dependency conflict in react alerts
+ - The flag is due to the dependency conflict in react alerts
+ 
 4. Start the application
     ```sh
    npm run dev
